@@ -1,0 +1,245 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #2c3e50;
+    scroll-behavior: smooth;
+}
+
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+    overflow: hidden;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: top 0.3s;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover {
+    background-color: #555;
+}
+
+
+.main {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    background: url('gourmet_bite.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.h1 {
+    font-family: 'Sora', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #f7da67;
+}
+
+.action-btn {
+    background-color: #ffcc00;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+.section {
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin: 0%;
+}
+
+.section p {
+    font-size: 1.2rem;
+    margin: 0%;
+}
+
+
+
+
+
+
+.action-btn:hover {
+    background-color: #d4ac0d;
+}
+
+.dishes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    position: relative;
+}
+
+.dish {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.dish img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #6c757d;
+}
+
+.review {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    position: relative;
+}
+
+.review::before {
+    content: "“";
+    font-size: 4em;
+    color: #6c757d;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.review::after {
+    content: "”";
+    font-size: 4em;
+    color: #6c757d;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.review p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.review span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #6c757d;
+}
+
+.stars {
+    color: #ffc107;
+    margin-bottom: 10px;
+}
+
+.testimonials {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    color: gray;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    background-color: #edd161;
+}
+
+.cart-items {
+    margin: 20px 0;
+}
+.cart-item {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remove-btn {
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart-summary {
+    margin-top: 20px;
+}
+.checkout-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
